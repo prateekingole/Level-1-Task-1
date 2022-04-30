@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #181818;
+    position: fixed;
+    width: 100vw;
+    z-index: 21;
+}
+
+ul {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+li {
+    margin-right: 28px;
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.logo {
+    color: #fff;
+    position: absolute;
+    left: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    top: 20px;
+}
+
+.mainLogo {
+    border: 1px solid white;
+}
+
+.btn {
+    position: absolute;
+    right: 30px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff0000;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+.mainContent {
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    animation: prateek 5s infinite linear;
+    background-color: lightsalmon;
+    transition: all 0.25s ease-in-out;
+}
+
+@keyframes prateek {
+    0% {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg2.jpg") no-repeat center/cover;
+    }
+    100% {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpg");
+    }
+}
+
+.mainHeading {
+    padding-top: 300px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.mainHeadingpara {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+/* About */
+
+.aboutcontent {
+    color: white;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #181818;
+}
+
+.abutpara {
+    margin: 50px;
+}
+
+
+/* Services */
+
+.services {
+    color: white;
+    position: relative;
+    width: 100vw;
+    left: 45%;
+    text-align: center;
+    top: 20px;
+    border-bottom: 5px solid #000;
+    width: 150px;
+}
+
+.Category {
+    height: 90vh;
+    width: 100vw;
+}
+
+.conetnt {
+    display: flex;
+    justify-content: center;
+}
+
+.servicespic {
+    width: 100vw;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.servicescontrol {
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.foorBottom {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    background: #f1f1f1;
+}
+
+.left {
+    height: 100%;
+    width: 33%;
+    padding: 20px 40px;
+    position: relative;
+    top: 15%;
+}
+
+.left p {
+    font-size: 0.8em;
+}
+
+.min {
+    height: 100%;
+    width: 33%;
+    position: relative;
+    left: 15%;
+}
+
+.right {
+    height: 100%;
+    top: 10px;
+    width: 33%;
+}
+
+.btnFooter {
+    position: relative;
+    top: 25%;
+    left: 55%;
+    padding: 10px 15px;
+    width: 120px;
+    outline: none;
+    border: none;
+    border: 2px solid #000;
+    background: transparent;
+}
+
+Main {
+    background-color: #181818;
+}
